@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dishes.iml" filepath="$PROJECT_DIR$/Dishes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CookPhoto.iml" filepath="$PROJECT_DIR$/CookPhoto.iml" />
+      <module fileurl="file://D:\GitHubrs\CookPhoto\Dishes.iml" filepath="D:\GitHubrs\CookPhoto\Dishes.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\GitHubrs\CookPhoto\app\app.iml" filepath="D:\GitHubrs\CookPhoto\app\app.iml" />
     </modules>
   </component>
 </project>

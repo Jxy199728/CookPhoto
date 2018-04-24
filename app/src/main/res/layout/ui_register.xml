@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <EditText
+            android:id="@+id/register_username"
+            android:layout_below="@+id/iv_icon"
+            android:layout_marginTop="15dp"
+            style="@style/EditText.Login"
+            android:hint="@string/login_username_hint"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/register_password"
+            style="@style/EditText.Login"
+            android:hint="@string/login_password_hint"
+            android:imeOptions="actionSend"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_register"
+            style="@style/Button.Login"
+            android:text="注册" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_agreement_1"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册即代表同意"
+            android:textSize="10dp"
+            android:layout_marginLeft="110dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_agreement_2"
+            android:layout_toRightOf="@+id/tv_agreement_1"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="《服务使用协议》"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textColorHint="#87CEEB"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:text="——————OR——————"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/iv_icon1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/sina"
+            />
+
+        <ImageView
+            android:id="@+id/iv_icon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/iv_icon1"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/wechat"/>
+
+        <ImageView
+            android:id="@+id/iv_icon3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/iv_icon2"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/qq"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

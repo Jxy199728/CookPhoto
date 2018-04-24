@@ -1,6 +1,18 @@
 <resources>
-    <string name="app_name">Dishes</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">MenuPrac</string>
+
+    <!-- login page -->
+    <string name="login_username_hint">Account/Email/Phone Number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+
+    <!-- register page -->
+    <string name="register_nickname_hint">Nickname</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_password_confirm_hint">Password again</string>
+    <string name="register_button_text">Signup</string>
+    <string name="register_follow_suggestions_text">Follow Recommandations</string>
+    <string name="alternate_title">An alternate title that is long</string>
+    <string name="toggle_title">Toggle title</string>
 </resources>
